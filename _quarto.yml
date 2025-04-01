@@ -1,23 +1,23 @@
-project: 
+project:
   type: website
 
 website:
-  title: "Your_Name - Data Science Portfolio"
+  title: "Sarah Egendoerfer - Data Science Portfolio"
   favicon: Images/favicon.png
   back-to-top-navigation: true
-  repo-url: https://github.com/username/username.github.io
+  repo-url: https://github.com/sarah309/ds_portfolio
   #repo-actions: [issue] #if you want to allow others to report issues on your site uncomment this line
 
-  page-footer: 
+  page-footer:
     border: true
-    left: "Your_Name 2024©"
-    right: 
+    left: "Sarah Egendoerfer 2024©"
+    right:
       - icon: linkedin
-        href: Your_LinkedIn_URL
+        href: "---"
 
   navbar:
     background: primary
-    search: true   
+    search: true
     right:
       - text: "Home"
         file: index.qmd
@@ -35,11 +35,11 @@ website:
         file: full_stack.qmd
       - text: "Competition"
         file: competition.qmd
-  
+
   # learn more about navication here https://quarto.org/docs/websites/website-navigation.html
   # comment out any of the sections below to turn off the sidebar
 
-  sidebar: 
+  sidebar:
     - title: "Data Cleansing"
       style: "docked"
       background: light
@@ -172,8 +172,8 @@ website:
         - text: "Project 5"
           file: Competition/project5.qmd
         - text: "---"
-  
-format:  
+
+format:
   html:
     theme: #see this link to customize the theme with css (https://quarto.org/docs/output-formats/html-themes.html#dark-mode)
       light: flatly # more themes can be found [here](https://quarto.org/docs/output-formats/html-themes.html)
@@ -182,6 +182,3 @@ format:
       #dark: [cosmo, theme-dark.scss]
     css: styles.css
     toc: true
-
-
-
